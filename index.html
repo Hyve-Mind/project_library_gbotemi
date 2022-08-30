@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "thelibrary">
+        <span>PROJECT LIBRARY</span>
+        <legend>
+            <fieldset>
+                <span>
+                    <label for="inputauthor">AUTHOR</label>
+                    <input type="text" class = "inputauthor">
+                </span>
+                <span>
+                    <label for="inputtitle">TITLE</label>
+                    <input type="text" class = "inputtitle">
+                </span>
+                <span>
+                    <label for="inputpages">PAGES</label>
+                    <input type="number" class = "inputpages">
+                </span>
+                <span>
+                    <input type="radio" id="notread" name="status" class = "status1" checked>
+                    <label for="scales">NOT READ</label>
+                    <input type="radio" id="read" name="status" class = "status2">
+                    <label for="read">READ</label>
+                </span>
+            </fieldset>
+        </legend>
+        <button class = "addbook">ADD NEW BOOK</button>
+    <div class = "container">
+      <div>
+        <span id ="authorheader">AUTHOR</span><span id = "titleheader">TITLE</span><span id = "pageheader">PAGES</span>
+        <span id = "statusheader">STATUS</span><span id = "deleteheader">DELETE</span>
+      </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
